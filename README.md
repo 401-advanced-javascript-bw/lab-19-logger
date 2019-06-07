@@ -15,13 +15,7 @@
 - [api docs](http://xyz.com) (API servers)
 - [jsdoc](http://xyz.com) (Server assignments)
 
-#### `app.js -> reads and writes file to uppercase and emits socket`
-
-#### `logger.js -> logs save and error events`
-
-#### `constants.js -> SERVER_URL`
-
-#### `events.js -> socket events`
+#### `logger.js -> logs database and file events`
 
 ### Setup
 
@@ -33,10 +27,6 @@
 
 - `npm i`
 - `npm start`
-- `node server.js`
 - `node logger.js`
-- `node ./app.js ./files/test.txt`
-
-#### UML
 
 ![](./files/uml.jpg)
