@@ -2,7 +2,7 @@
   "name": "node-apps",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "logger.js",
   "directories": {
     "doc": "docs"
   },
@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
+    "start": "node logger.js",
     "lint": "eslint **/*.js",
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose --coverage",

@@ -4,10 +4,10 @@ const QClient = require('@nmq/q/client');
 const files = new QClient('files');
 
 files.subscribe('save', payload => {
-  console.log('save', payload);
+  console.log(payload);
 });
-files.subscribe('error', payload => {
-  console.log('error', payload);
+files.subscribe('bad', payload => {
+  console.log(payload);
 });
 
 const database = new QClient('database');
@@ -24,6 +24,6 @@ database.subscribe('read', payload => {
 database.subscribe('update', payload => {
   console.log('update', payload);
 });
-database.subscribe('error', payload => {
-  console.log('error', payload);
+database.subscribe('bad', payload => {
+  console.log('bad', payload);
 });
