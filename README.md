@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission PR](https://github.com/401-advanced-javascript-bw/lab-19-logger/pulls)
 - [travis](http://xyz.com)
 - [azure](https://lab-19-logger-bw.azurewebsites.net)
 
@@ -26,7 +26,6 @@
 #### Running the app
 
 - `npm i`
-- `npm start`
-- `node logger.js`
+- `npm start`/`node logger.js`
 
 ![](./files/uml.jpg)
